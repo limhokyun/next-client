@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 interface childrenProps {
     children: any;
-    home: any;
+    home?: any;
 }
 
 const name = 'Your Name';

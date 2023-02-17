@@ -2,8 +2,10 @@ import Head from 'next/head';
 import Layout from '../../components/layout';
 import utilStyles from '../../styles/utils.module.css';
 export default function FirstPost() {
+
     return (
-        <Layout home>
+
+        <Layout>
             <Head>
                 <title>First Post</title>
             </Head>
